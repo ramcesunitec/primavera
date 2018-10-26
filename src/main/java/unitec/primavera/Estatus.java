@@ -13,6 +13,14 @@ public class Estatus {
     private boolean success;
     private String mensaje;
 
+    public Estatus() {
+    }
+
+    public Estatus(boolean success, String mensaje) {
+        this.success = success;
+        this.mensaje = mensaje;
+    }
+
     public boolean isSuccess() {
         return success;
     }
