@@ -32,7 +32,7 @@ public class ControladorMensajitos {
     //Mi primer "Hola mundo" desde REST API con spring
     @GetMapping(path="/hola")
     public String hola(){
-        return "Hola mundo";
+        return "Hola mundo malo";
     }
     
     
